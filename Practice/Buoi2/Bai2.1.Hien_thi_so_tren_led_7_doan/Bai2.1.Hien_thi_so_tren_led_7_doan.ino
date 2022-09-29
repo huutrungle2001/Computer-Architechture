@@ -179,6 +179,6 @@ void NineToZero() {
 }
 
 void loop() {
-//    ZeroToNine();
-  display9();
+    ZeroToNine();
+//  display9();
 }
