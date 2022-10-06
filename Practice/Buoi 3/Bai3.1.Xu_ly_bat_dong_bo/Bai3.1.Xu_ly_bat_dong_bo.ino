@@ -1,4 +1,4 @@
-const int buttonPin1 = 2;  // pin nối button để điều khiển
+const int buttonPin = 2;  // pin nối button để điều khiển
 const int ledPin2 = 8;     // pin nối LED điều khiển bằng button
 const int ledPin1 = 10;    // pin nối LED bật tắt tự động sau 3s
 
