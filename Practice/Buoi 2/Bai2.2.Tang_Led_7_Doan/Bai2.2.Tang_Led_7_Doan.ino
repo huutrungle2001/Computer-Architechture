@@ -35,7 +35,9 @@ void setup() {  // thiết lập các chức năng chân
     Sodawrite(0);  //Đầu tiên là xuất số 0
 }
 
-void loop() {}
+void loop() {
+  tang();
+}
 
 void tang() {
     // Chỉ đếm từ 0 --> 9

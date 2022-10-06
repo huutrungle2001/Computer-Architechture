@@ -28,7 +28,7 @@ void display3(void) {
     digitalWrite(b, HIGH);
 
     digitalWrite(c, HIGH);
-    digitalWrite(d, HIGH);
+    digitalWrite(e, HIGH);
     digitalWrite(g, HIGH);
 }
 
@@ -46,7 +46,7 @@ void display5(void) {
     digitalWrite(f, HIGH);
     digitalWrite(g, HIGH);
     digitalWrite(c, HIGH);
-    digitalWrite(d, HIGH);
+    digitalWrite(e, HIGH);
 }
 
 // display number6
@@ -92,7 +92,7 @@ void display9(void) {
     digitalWrite(b, HIGH);
     digitalWrite(g, HIGH);
     digitalWrite(c, HIGH);
-    digitalWrite(d, HIGH);
+    digitalWrite(e, HIGH);
     digitalWrite(f, HIGH);
 }
 
@@ -103,6 +103,7 @@ void display0(void) {
     digitalWrite(d, HIGH);
     digitalWrite(e, HIGH);
     digitalWrite(f, HIGH);
+    digitalWrite(g, HIGH);
 }
 
 void setup() {
@@ -114,69 +115,70 @@ void setup() {
 void ZeroToNine() {
     clearDisplay();
     display0();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display1();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display2();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display3();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display4();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display5();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display6();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display7();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display8();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display9();
-    delay(1000);
+    delay(2000);
 }
 
 void NineToZero() {
     clearDisplay();
     display9();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display8();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display7();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display6();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display5();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display4();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display3();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display2();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display1();
-    delay(1000);
+    delay(2000);
     clearDisplay();
     display0();
-    delay(1000);
+    delay(2000);
 }
 
 void loop() {
     ZeroToNine();
+//  display9();
 }
