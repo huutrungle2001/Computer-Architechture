@@ -6,7 +6,7 @@ void setup() {
 
 void loop() {
     if (Serial.available()) {                 // nếu có dữ liệu gửi đến
-        text = Serial.readStringUntil('\n');  // đọc giá trị gửi đến cho đến khi gặp kí tự xuống dòng \n
+        String text = Serial.readStringUntil('\n');  // đọc giá trị gửi đến cho đến khi gặp kí tự xuống dòng \n
 
         if (text == "ON") {
             digitalWrite(8, HIGH);               // bật LED
